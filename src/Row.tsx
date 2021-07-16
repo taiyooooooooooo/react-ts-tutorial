@@ -15,8 +15,7 @@ type Movie = {
     backdrop_path: string;
 }
 
-export const Row = ({ title, fetchUrl }: Props) => {
-    const [movies, setMovies] = useState([]);
+export const Row = ({ title, fetchUrl, isLargeRow }: Props) => {
     useEffect(() => {
         async function fetchData() {
             const request = await axios.get(fetchUrl);
