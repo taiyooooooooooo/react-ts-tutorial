@@ -12,3 +12,4 @@ export const requests = {
 }
 
 export const BASE_URL = "https://api.themoviedb.org/3"
+export const EYE_CATCH_BASE_URL = "https://www.themoviedb.org/t/p/w130_and_h195_bestv2"
