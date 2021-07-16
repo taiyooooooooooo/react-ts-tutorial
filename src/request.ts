@@ -10,3 +10,5 @@ export const requests = {
     feactRomanceMovies: `/discover/tv?api_key=${API_KEY}&with_genres=10749`,
     feactDocumentMovies: `/discover/tv?api_key=${API_KEY}&with_genres=99`,
 }
+
+export const BASE_URL = "https://api.themoviedb.org/3"
